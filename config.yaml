@@ -1,0 +1,10 @@
+# hw_annotate 默认配置（可选，命令行 --config 覆盖）
+answer_color: FF0000        # 答案文字颜色（红）
+bold: true                  # 是否加粗
+remove_reference_block: true# 是否删除文末旧「参考答案」块
+reference_marker: 参考答案   # 参考答案块标题关键字
+output_suffix: _含答案      # 标注输出文件后缀
+backup_suffix: .before      # 原文件快照后缀
+pdf_page: a4                # PDF 纸张
+pdf_margin: 36              # PDF 页边距（pt）
+pdf_compress: true          # 是否压缩 PDF（subset_fonts + deflate）
